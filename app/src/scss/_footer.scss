@@ -5,34 +5,31 @@
 // Footer CONSTRUCTION
 footer{
   min-height: 0px;
-  background-color: #121212;
-  padding: 15px 30px;
-  &.padding-footer{
-    padding: 20px 20px 59px;
-  }
+  background-color: #271a15;
+  padding: 40px 30px 10px;
   .crj-terms{
-    margin-top: 6px;
+    margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
     p{
-      font-family: $Gotham-Bk;
+      font-family: 'Lekton', sans-serif;
       color: #949494;
-      font-size: 11px;
+      font-size: 12px;
     }
   }
   .developed-thet{
     text-align: center;
     p{
-      font-family: Arial;
+      font-family: 'Lekton', sans-serif;
       display: inline-block;
       margin-right: 4px;
-      font-size: 11px;
+      font-size: 12px;
       text-transform: uppercase;
     }
     img{
-      width: 70px;
+      width: 35px;
       display: inline-block;
-      -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+      -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
       margin-top: -2px;
     }

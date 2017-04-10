@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/nprstrap.css">
     <script src="https://use.fontawesome.com/e197a5108a.js"></script>
     <!-- Javascript -->
-    <script src="scripts/jquery-3.2.0.min.js"></script>
+    <script src="scripts/jquery-2.2.4.min.js"></script>
   </head>
   <body>
     <!-- .wrapper -->
