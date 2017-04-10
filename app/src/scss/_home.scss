@@ -120,6 +120,20 @@ footer{
     background-position: center center;
     @include background-size(cover);
   }
+  &.banner-01{
+    height: 300px;
+    background: url(../images/home-bcg--02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+  }
+  &.banner-02{
+    height: 300px;
+    background: url(../images/home-bcg--03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+  }
 }
 
 .banner-container {
@@ -198,6 +212,9 @@ footer{
     font-family: 'Roboto Slab', serif;
   }
 }
+.slick-dots{
+  bottom: -20px;
+}
 
 .height-calc{width: 100%;};
 
@@ -215,10 +232,17 @@ footer{
     &.banner-00{
       height: 600px;
     }
+    &.banner-01{
+      height: 600px;
+    }
+    &.banner-02{
+      height: 600px;
+    }
   }
   .banner-container {
     padding: 15px 0px;
     margin-top: 0px;
+    top: 70%;
     .banner-txt {
       padding: 15px 0px;
       .banner-title {
@@ -235,6 +259,9 @@ footer{
     a{
       margin-left: 40px;
     }
+  }
+  .slick-dots{
+    bottom: -20px;
   }
 }
 

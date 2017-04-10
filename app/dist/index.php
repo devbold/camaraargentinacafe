@@ -9,19 +9,51 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="banner-container">
-                <div class="banner-txt">
-                  <h2 class="banner-title">LOS BENEFICIOS DEL CAFÉ</h2>
-                  <h4 class="banner-subtitle">Tomar café es un placer que además te da energía y aporta diversos beneficios a tu salud</h4>
-                  <a href="#">
-                    <div class="btn btn-primary">+ info</div>
-                  </a>
+                <div class="slick-slider--01">
+                  <div>
+                    <div class="banner-txt">
+                      <h2 class="banner-title">LOS BENEFICIOS DEL CAFÉ</h2>
+                      <h4 class="banner-subtitle">Tomar café es un placer que además te da energía y aporta diversos beneficios a tu salud</h4>
+                      <a href="#">
+                        <div class="btn btn-primary">+ info</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="banner-txt">
+                      <h2 class="banner-title">EL MUNDO DEL CAFÉ</h2>
+                      <h4 class="banner-subtitle">Su sabor y aroma cautivan a millones de personas en el mundo</h4>
+                      <a href="#">
+                        <div class="btn btn-primary">+ info</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="banner-txt">
+                      <h2 class="banner-title">NOSOTROS</h2>
+                      <h4 class="banner-subtitle">La Cámara Argentina de Café es una entidad gremial empresaria fundada en 1918.</h4>
+                      <a href="#">
+                        <div class="btn btn-primary">+ info</div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="main-banner full-black"></div>
-        <div class="main-banner banner-00"></div>
+        <div class="slick-slider--02">
+          <div>
+            <div class="main-banner banner-00"></div>
+          </div>
+          <div>
+            <div class="main-banner banner-01"></div>
+          </div>
+          <div>
+            <div class="main-banner banner-02"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

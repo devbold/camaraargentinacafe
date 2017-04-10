@@ -73,5 +73,35 @@ $(document).ready(function(){
     }
   );  
 
+  // Slick Slider
+  $('.slick-slider--01').slick({
+    dots: true,
+    lazyLoad: 'ondemand',
+    fade: false,
+    cssEase: 'ease-in-out',
+    infinite: false,
+    speed: 500,
+    arrows: false,
+    accessibility: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.slick-slider--02'
+  });
+
+  $('.slick-slider--02').slick({
+    dots: false,
+    lazyLoad: 'ondemand',
+    fade: false,
+    cssEase: 'ease-in-out',
+    infinite: false,
+    speed: 500,
+    arrows: false,
+    accessibility: false,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
+
   
 });
+
+

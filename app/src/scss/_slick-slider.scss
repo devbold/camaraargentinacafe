@@ -124,15 +124,15 @@ $slick-font-path: "./fonts/" !default;
 $slick-font-family: "slick" !default;
 $slick-loader-path: "./" !default;
 $slick-arrow-color: white !default;
-$slick-dot-color: #1a417a !default;
-$slick-dot-color-active: $slick-dot-color !default;
+$slick-dot-color: $quaternary !default;
+$slick-dot-color-active: $primary !default;
 $slick-prev-character: "\2190" !default;
 $slick-next-character: "\2192" !default;
 $slick-dot-character: "\2022" !default;
-$slick-dot-size: 9px !default;
-$slick-opacity-default: 0.75 !default;
+$slick-dot-size: 16px !default;
+$slick-opacity-default: 1 !default;
 $slick-opacity-on-hover: 1 !default;
-$slick-opacity-not-active: 0.25 !default;
+$slick-opacity-not-active: .75 !default;
 
 @function slick-image-url($url) {
     @if function-exists(image-url) {
@@ -246,7 +246,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-dots {
     position: absolute;
-    // bottom: -35px;
+    bottom: 0px;
     left: 0;
     list-style: none;
     display: block;
@@ -295,6 +295,10 @@ $slick-opacity-not-active: 0.25 !default;
                 opacity: $slick-opacity-not-active;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
+
+                content: "\f04d";
+                font-family: FontAwesome;
+                @include transition;
             }
         }
         &.slick-active button:before {
