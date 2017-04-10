@@ -1,5 +1,5 @@
 {
-  "name": "bold-studio",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,9 +13,9 @@
   "author": "Bold Studio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/visionstudio/websitecompany/issues"
+    "url": "https://github.com/ignacioperezroca/camaraargentinacafe/issues"
   },
-  "homepage": "https://github.com/visionstudio/websitecompany#readme",
+  "homepage": "https://github.com/ignacioperezroca/camaraargentinacafe#readme",
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.24.1",

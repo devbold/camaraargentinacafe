@@ -1,0 +1,81 @@
+// -------------------------
+// FOOTER
+// -------------------------
+
+// Footer CONSTRUCTION
+footer{
+  min-height: 0px;
+  background-color: #121212;
+  padding: 15px 30px;
+  &.padding-footer{
+    padding: 20px 20px 59px;
+  }
+  .crj-terms{
+    margin-top: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+    p{
+      font-family: $Gotham-Bk;
+      color: #949494;
+      font-size: 11px;
+    }
+  }
+  .developed-thet{
+    text-align: center;
+    p{
+      font-family: Arial;
+      display: inline-block;
+      margin-right: 4px;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+    img{
+      width: 70px;
+      display: inline-block;
+      -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+      filter: grayscale(100%);
+      margin-top: -2px;
+    }
+    a{
+      color: #949494;
+      &:hover, &:focus, &:visited{
+        color: #fff;
+      }
+      p{
+        color: #949494;
+      }
+      &:hover{
+        p{
+          color: white;
+        }
+        img{
+          -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+          filter: grayscale(0%);
+        }
+      }
+    }
+  }
+}
+
+
+
+// RESPONSIVE
+@media (min-width: 768px){
+	footer{
+    // padding: 20px 20px 45px;
+    &.padding-footer{
+      padding: 20px 20px 44px;
+    }
+    .crj-terms{
+      margin-bottom: 0px;
+      float: left;
+      a{
+        font-size: 9px;
+      }
+    }
+		.developed-thet{
+			text-align: right;
+		}
+	}
+}
+
