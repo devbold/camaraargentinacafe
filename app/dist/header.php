@@ -18,13 +18,13 @@
     <meta name="twitter:image" content="" />
     <link rel="icon" href="images/favicon.ico">
     <title></title>
-    <meta name="Description" content="Líder en innovación y soluciones integrales de software de visión artificial para construir soluciones inteligentes para la Industria de la Video Seguridad. Aproveche nuestra tecnología innovadora para operar de manera más eficiente y tomar la mejor decisión en sus operaciones.">
+    <meta name="Description" content="">
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/nprstrap.css">
     <script src="https://use.fontawesome.com/e197a5108a.js"></script>
     <!-- Javascript -->
-    <script src="scripts/jquery-2.2.4.min.js"></script>
+    <script src="scripts/jquery-3.2.0.min.js"></script>
   </head>
   <body>
     <!-- .wrapper -->
@@ -35,9 +35,9 @@
       <!-- .sidebar-wrapper -->
       <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-          <li><a href="index.php">Inicio</a></li>
-          <li><a href="empresa.php">Empresa</a></li>
-          <li><a href="contacto.php">Contacto</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="asd.php">asd</a></li>
+          <li><a href="asdf.php">asdf</a></li>
         </ul>
         <div class="social-block">
           <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>

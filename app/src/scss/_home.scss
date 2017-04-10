@@ -61,15 +61,66 @@ footer{
 
 // HOME CONSTRUCTION
 
-/*BANNER*/
-
 .main-banner{
   &.banner-00{
     height: 300px;
-    background: url(../images/empresa-bcg--02.jpg);
+    background: url(../images/home-bcg--01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     @include background-size(cover);
+  }
+}
+
+.banner-container {
+  position: absolute;
+  top: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  @include transform(translate(0%, -100%));
+  .banner-txt {
+    color: #fff;
+    .banner-title {
+      font-family: "GothamBl";
+      width: 80%;
+      font-size: 20px;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+    .hr-main-title {
+      width: 40px;
+      border: 0;
+      margin-top: 21px;
+      margin-bottom: 18px;
+      border-top: 2px solid #fff;
+    }
+  }
+}
+
+.social-block {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  a{
+    margin-left: 40px;
+    color: #fff;
+    i{
+      font-size: 1.5em;
+    }
+    &:hover{
+      color: $primary;
+    }
+    &:nth-child(1){
+      margin-left: 0;
+    }
+  }
+}
+
+.products-container{
+  text-align: center;
+  .img-container{
+    img{
+      border-radius: 50%;
+    }
   }
 }
 
@@ -82,6 +133,23 @@ footer{
   .main-banner{
     &.banner-00{
       height: 600px;
+    }
+  }
+  .banner-container {
+    padding: 15px 0px;
+    .banner-txt {
+      padding: 15px 0px;
+      .banner-title {
+        width: 60%;
+        font-size: 40px;
+        line-height: 1.5;
+      }
+    }
+  }  
+  .social-block {
+    margin-top: 80px;
+    a{
+      margin-left: 40px;
     }
   }
 }
