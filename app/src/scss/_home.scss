@@ -31,7 +31,7 @@ p {
   font-size: 16px;
   color: $tertiary;
   margin: 0;
-  font-family: $primary-BkI;
+  font-family: 'Lekton', sans-serif;
 }
 ul, ol{
   padding: 0;
@@ -113,23 +113,30 @@ footer{
     background-color: #000;
     background-color: rgba(0, 0, 0, .5);
   }
-  &.banner-00{
+  &.banner-01{
     height: 300px;
     background: url(../images/home-bcg--01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     @include background-size(cover);
   }
-  &.banner-01{
+  &.banner-02{
     height: 300px;
     background: url(../images/home-bcg--02.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     @include background-size(cover);
   }
-  &.banner-02{
+  &.banner-03{
     height: 300px;
     background: url(../images/home-bcg--03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+  }
+  &.banner-04{
+    height: 300px;
+    background: url(../images/benefits-bcg--01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     @include background-size(cover);
@@ -199,6 +206,7 @@ footer{
     color: $secondary;
     font-size: 26px;
     margin-top: 10px;
+    line-height: 1.2;
     font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
   }
@@ -229,20 +237,26 @@ footer{
     &.full-black{
       height: 600px;    
     }
-    &.banner-00{
-      height: 600px;
-    }
     &.banner-01{
       height: 600px;
     }
     &.banner-02{
       height: 600px;
     }
+    &.banner-03{
+      height: 600px;
+    }
+    &.banner-04{
+      height: 600px;
+    }
   }
   .banner-container {
     padding: 15px 0px;
     margin-top: 0px;
-    top: 70%;
+    top: 50%;
+    &.home{
+      top: 70%;
+    }
     .banner-txt {
       padding: 15px 0px;
       .banner-title {
@@ -268,12 +282,53 @@ footer{
 
 
 // SECCION CONSTRUCTION
+.fluid-txt--container {
+  padding: 80px 0;
+  p{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 2;
+    span{
+      color: $cream;
+    }
+  }
+}
+.half {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 200px;
+}
+.half-right--txt, .half-left--txt {
+  padding: 55px 90px 55px 30px;
+}
+.half-right--txt {
+  padding: 55px 25px 55px;
+}
+.half-txt--right, .half-txt--left {
+}
+.benefits-half--01{
+  background: url(../images/benefits-half--01.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  @include background-size(cover);
+}
 
 // SECCION RESPONSIVE
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @media (min-width: 768px) {
-
+  .half {
+    height: 100%;
+    position: absolute;
+  }
+  .half-right--txt {
+    padding: 100px 27% 100px 30px;
+  }
 }
 
 

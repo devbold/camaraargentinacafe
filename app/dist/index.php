@@ -8,7 +8,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div class="banner-container">
+              <div class="banner-container home">
                 <div class="slick-slider--01">
                   <div>
                     <div class="banner-txt">
@@ -45,13 +45,13 @@
         <div class="main-banner full-black"></div>
         <div class="slick-slider--02">
           <div>
-            <div class="main-banner banner-00"></div>
-          </div>
-          <div>
             <div class="main-banner banner-01"></div>
           </div>
           <div>
             <div class="main-banner banner-02"></div>
+          </div>
+          <div>
+            <div class="main-banner banner-03"></div>
           </div>
         </div>
       </div>

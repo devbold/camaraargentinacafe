@@ -36,7 +36,7 @@
       <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
           <li><a href="index.php">Home</a></li>
-          <li><a href="asd.php">asd</a></li>
+          <li><a href="losbeneficiosdelcafe.php">losbeneficiosdelcafe</a></li>
           <li><a href="asdf.php">asdf</a></li>
         </ul>
         <div class="social-block">
