@@ -36,8 +36,9 @@
       <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
           <li><a href="index.php">Home</a></li>
-          <li><a href="losbeneficiosdelcafe.php">losbeneficiosdelcafe</a></li>
-          <li><a href="asdf.php">asdf</a></li>
+          <li><a href="losbeneficiosdelcafe.php">los beneficios del cafe</a></li>
+          <li><a href="elmundodelcafe.php">El mundo del café</a></li>
+          <li><a href="estudioscientificos.php">Estudios científicos</a></li>
         </ul>
         <div class="social-block">
           <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
