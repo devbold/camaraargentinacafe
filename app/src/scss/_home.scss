@@ -149,9 +149,16 @@ footer{
     background-position: center center;
     @include background-size(cover);
   }
+  &.banner-06{
+    height: 300px;
+    background: url(../images/elaboracion-bcg--01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+  }
 }
 
-.banner-container {
+.banner-container { 
   width: 100%;
   position: absolute;
   z-index: 6;
@@ -357,6 +364,22 @@ footer{
     text-align: center;
   }
 }
+.full-img--container {
+  max-width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  @include transform(translate(-50%,-50%));
+  .title{
+    font-weight: 300;
+    font-size: 24px;
+  }
+  p{
+    color: #fff;
+    margin-top: 20px;
+  }
+}
 
 // SECCION RESPONSIVE
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -372,7 +395,13 @@ footer{
   .half-left--txt {
     padding: 100px 30px 100px 10%;
   }
+  .full-img--container {
+    .title{
+      font-size: 34px;
+    }
+  }
 }
+
 
 
 

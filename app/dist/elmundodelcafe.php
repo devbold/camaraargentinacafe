@@ -16,7 +16,7 @@
             </div>
           </div>
         </div>
-        <div class="main-banner full-black"></div>
+        <!-- <div class="main-banner full-black"></div> -->
         <div class="main-banner banner-05"></div>
       </div>
     </div>

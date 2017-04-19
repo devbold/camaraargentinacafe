@@ -14,7 +14,7 @@
                     <div class="banner-txt">
                       <h2 class="banner-title">LOS BENEFICIOS DEL CAFÉ</h2>
                       <h4 class="banner-subtitle">Tomar café es un placer que además te da energía y aporta diversos beneficios a tu salud</h4>
-                      <a href="#">
+                      <a href="losbeneficiosdelcafe.php">
                         <div class="btn btn-primary">+ info</div>
                       </a>
                     </div>
@@ -23,7 +23,7 @@
                     <div class="banner-txt">
                       <h2 class="banner-title">EL MUNDO DEL CAFÉ</h2>
                       <h4 class="banner-subtitle">Su sabor y aroma cautivan a millones de personas en el mundo</h4>
-                      <a href="#">
+                      <a href="elmundodelcafe.php">
                         <div class="btn btn-primary">+ info</div>
                       </a>
                     </div>
@@ -75,7 +75,7 @@
                   Conozca las técnicas de cultivo, cosecha 
                   y producción del café.
                 </p>
-                <a href="#">
+                <a href="elaboracion.php">
                   <div class="btn btn-primary">+ info</div>
                 </a>
               </div>
