@@ -10,7 +10,7 @@
             <div class="col-xs-12">
               <div class="banner-container">
                 <div class="banner-txt">
-                  <!--<h2 class="banner-title">Tipos de café</h2>-->
+                  <h2 class="banner-title">Tipos de café</h2>
                 </div>
               </div>
             </div>
