@@ -76,7 +76,6 @@ $(document).ready(function(){
   // Slick Slider
   $('.slick-slider--01').slick({
     dots: true,
-    lazyLoad: 'ondemand',
     fade: false,
     cssEase: 'ease-in-out',
     infinite: false,
@@ -90,7 +89,6 @@ $(document).ready(function(){
 
   $('.slick-slider--02').slick({
     dots: false,
-    lazyLoad: 'ondemand',
     fade: false,
     cssEase: 'ease-in-out',
     infinite: false,

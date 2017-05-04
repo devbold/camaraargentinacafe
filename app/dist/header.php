@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/nprstrap.css">
     <script src="https://use.fontawesome.com/e197a5108a.js"></script>
     <!-- Javascript -->
-    <script src="scripts/jquery-2.2.4.min.js"></script>
+    <script src="scripts/jquery-2.2.4.min.js"></script>  
   </head>
   <body>
     <!-- .wrapper -->
@@ -37,9 +37,14 @@
         <ul class="sidebar-nav">
           <li><a href="index.php">Home</a></li>
           <li><a href="losbeneficiosdelcafe.php">Los beneficios del cafe</a></li>
-          <li><a href="elmundodelcafe.php">El mundo del café</a></li>
+          <!-- <li><a href="elmundodelcafe.php">El mundo del café</a></li> -->
+          <li><a href="tipos-de-cafe.php">Tipos de Cafe</a></li>
           <li><a href="elaboracion.php">Elaboración</a></li>
-          <!-- <li><a href="estudioscientificos.php">Estudios científicos</a></li> -->
+          <li><a href="informes.php">Informes</a></li>
+          <li><a href="conocenos.php">Conocenos</a></li>
+          <li><a href="preguntas-frecuentes.php">Preguntas Frecuentes</a></li>
+          <li><a href="links.php">Links</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
         </ul>
         <div class="social-block">
           <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>

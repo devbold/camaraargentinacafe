@@ -1,5 +1,5 @@
 <?php 
-  $title = '';
+  $title = 'El mundo del cafe';
 ?>
 <?php include 'header.php'; ?>
   <section class='section-01 index'>
@@ -27,11 +27,9 @@
         <div class="col-xs-12">
           <div class="margintop30 visible-xs"></div>
           <div class="margintop60 hidden-xs"></div>
-          <div class="title text-center">El café, una bebida con historia</div>
           <div class="margintop10"></div>
           <p>
-            El café goza de una enorme popularidad. Preparada por la infusión de semillas de cafeto, su sabor y aroma cautivan 
-            a millones de personas en el mundo.            
+            El café goza de una enorme popularidad y es <strong>uno de los cultivos con más historia en el mundo.</strong> Los árabes fueron los primeros en descubrir las virtudes y las posibilidades nutritivas de esta bebida alrededor del <strong>siglo XV,</strong> por eso se creyó durante mucho tiempo que la planta era de origen árabe.
           </p>
           <div class="margintop30 visible-xs"></div>
           <div class="margintop60 hidden-xs"></div>
@@ -62,9 +60,7 @@
         <div class="margintop60 hidden-xs"></div>
         <div class="col-xs-12">
           <p>
-            Los árabes fueron los primeros en descubrir las <strong>virtudes y las posibilidades nutritivas</strong> del cultivo del café. Por eso, durante mucho tiempo se creyó que la planta proveedora de café era árabiga.
-            <br><br>
-            Cuando hablamos de café, hablamos sin saberlo de <strong>uno de los cultivos con más historia que existe.</strong> Las primeras referencias que se tienen acerca del cafeto, tal el nombre del arbusto que da vida a esta bebida y los orígenes legendarios de la misma, nos remontan a los <strong>siglos VI y XIII.</strong>
+            Sin embargo, investigaciones posteriores comprobaron que el cafeto es originario de <strong>Abisinia (Etiopía).</strong> También existió una amplia confusión en cuanto a los orígenes de su nombre, el cual fue objeto de diversas modificaciones a través de la historia.
           </p>
         </div>
       </div>
@@ -81,12 +77,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="title text-center">sus orígenes</div>
-          <div class="margintop10"></div>
           <p>
-            Investigaciones posteriores han comprobado que el cafeto es <strong>originario de Abisinia (Etiopía).</strong> También existió una amplia confusión en cuanto a los orígenes de su nombre, siendo el mismo objeto de diversas modificaciones a través de la historia.
-            <br><br>
-            <strong>Llegado a América en 1723,</strong> en manos de un teniente de navío francés, el café desembarcó en las Antillas luego de una extensa travesía y antes del final del siglo, el grano de café estaba distribuido en toda América.
+            <strong>Llegado a América en 1723</strong> en manos de un teniente de navío francés, el café desembarcó en las Antillas luego de una extensa travesía y antes del final del <strong>siglo XVIII</strong> fue distribuido en todo el continente.          
           </p>
         </div>
       </div>

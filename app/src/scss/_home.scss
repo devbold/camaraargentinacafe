@@ -4,7 +4,7 @@
 // -------------------------
 
 body{
-  font-family: $primary-Bk;
+  font-family: 'Roboto Slab', serif;
   font-size: 16px;
   text-decoration: none;
   color: #5a5a5a;
@@ -18,17 +18,17 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 h1,h2,h3,h4,h5{
-  font-family: $primary-BdI;
+  font-family: 'Roboto Slab', serif;
   font-size: 16px;
 }
 h1{
   font-size: 38px;
   color: $tertiary;
-  font-family: $primary-BdI;
+  font-family: 'Roboto Slab', serif;
 }
 p {
   line-height: 1.4;
-  font-size: 14px;
+  font-size: 16px;
   color: $tertiary;
   margin: 0;
   font-family: 'Lekton', sans-serif;
@@ -119,6 +119,7 @@ footer{
     background: url(../images/home-bcg--01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    // background-attachment: fixed;
     @include background-size(cover);
   }
   &.banner-02{
@@ -126,6 +127,7 @@ footer{
     background: url(../images/home-bcg--02.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    // background-attachment: fixed;
     @include background-size(cover);
   }
   &.banner-03{
@@ -133,6 +135,7 @@ footer{
     background: url(../images/home-bcg--03.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    // background-attachment: fixed;
     @include background-size(cover);
   }
   &.banner-04{
@@ -140,6 +143,7 @@ footer{
     background: url(../images/benefits-bcg--01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    // background-attachment: fixed;
     @include background-size(cover);
   }
   &.banner-05{
@@ -147,6 +151,7 @@ footer{
     background: url(../images/mundo-bcg--01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    // background-attachment: fixed;
     @include background-size(cover);
   }
   &.banner-06{
@@ -154,6 +159,55 @@ footer{
     background: url(../images/elaboracion-bcg--01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    // background-attachment: fixed;
+    @include background-size(cover);
+  }
+  &.banner-07{
+    height: 300px;
+    background: url(../images/informes-bcg--01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    // background-attachment: fixed;
+    @include background-size(cover);
+  }
+  &.banner-08{
+    height: 300px;
+    background: url(../images/conocenos-bcg--01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    // background-attachment: fixed;
+    @include background-size(cover);
+  }
+  &.banner-09{
+    height: 300px;
+    background: url(../images/preguntas-bcg--01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    // background-attachment: fixed;
+    @include background-size(cover);
+  }
+  &.banner-10{
+    height: 300px;
+    background: url(../images/tipos-bcg--01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    // background-attachment: fixed;
+    @include background-size(cover);
+  }
+  &.banner-11{
+    height: 300px;
+    background: url(../images/links-bcg--01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    // background-attachment: fixed;
+    @include background-size(cover);
+  }
+  &.banner-12{
+    height: 300px;
+    background: url(../images/contacto-bcg--01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    // background-attachment: fixed;
     @include background-size(cover);
   }
 }
@@ -172,6 +226,7 @@ footer{
     color: #fff;
     text-align: center;
     .banner-title {
+      text-transform: uppercase;
       color: $cream;
       font-family: 'Roboto Slab', serif;
       font-weight: 300;
@@ -195,7 +250,7 @@ footer{
   margin-top: 40px;
   a{
     margin-left: 40px;
-    color: #fff;
+    color: #404040;
     i{
       font-size: 1.5em;
     }
@@ -325,7 +380,7 @@ footer{
     color: #692d2b;
     letter-spacing: 1px;
     line-height: 2;
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 .half-right--txt {
@@ -352,6 +407,81 @@ footer{
   background-position: center center;
   @include background-size(cover);
 }
+.types-half--01{
+  background: url(../images/tipos-half--01.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  @include background-size(cover);
+}
+.types-half--02{
+  background: url(../images/tipos-half--02.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  @include background-size(cover);
+}
+.full-banner {
+  width: 100%;
+  &[class^="full-"],
+  &[class*="full-"] {
+    height: 450px;
+  }
+  &.full-01{
+    background: url(../images/tipos-bcg--02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+    background-attachment: fixed;
+  }
+  &.full-02{
+    background: url(../images/tipos-bcg--03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+    background-attachment: fixed;
+  }
+  &.full-03{
+    background: url(../images/tipos-bcg--04.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+    background-attachment: fixed;
+  }
+  &.full-04{
+    background: url(../images/elaboracion-bcg--02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+    background-attachment: fixed;
+  }
+  &.full-05{
+    background: url(../images/elaboracion-bcg--03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+    background-attachment: fixed;
+  }
+  &.full-06{
+    background: url(../images/elaboracion-bcg--04.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+    background-attachment: fixed;
+  }
+  &.full-07{
+    background: url(../images/elaboracion-bcg--05.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+    background-attachment: fixed;
+  }
+  &.full-08{
+    background: url(../images/conocenos-img--02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include background-size(cover);
+    background-attachment: fixed;
+  }
+}
 .mundo-full--img{
   img{
     width: 100%;
@@ -360,13 +490,14 @@ footer{
     color: #692d2b;
     letter-spacing: 1px;
     line-height: 2;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
   }
 }
 .full-img--container {
-  max-width: 650px;
+  width: 100%;
   position: absolute;
+  padding: 0 15px;
   top: 50%;
   left: 50%;
   text-align: center;
@@ -378,6 +509,52 @@ footer{
   p{
     color: #fff;
     margin-top: 20px;
+  }
+}
+.report-txt{
+  > p{
+    font-size: 16px;
+    > i{
+      font-size: 16px;
+      color: #a02631;
+    }
+  }
+  > a{
+    p{
+      @include transition;
+      margin-top: 5px;
+      font-weight: 700;
+      font-size: 13px;
+      color: #a02631;
+      > i{
+        color: #dbcbad;
+        font-size: 14px;
+      }
+      &:hover{
+        color: #404040;
+      }
+    }
+  }
+}
+.form-control{
+  border-radius: 0px; 
+  border: 1px solid #271a15;
+  &:focus,
+  &:hover{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #271a15;
+  }
+}
+.input-group-addon{
+  background-color: #a02631;
+  border: 1px solid #271a15;
+  border-radius: 0;
+  a{
+    color: #fff;
+    &:hover{
+      color: #404040;
+    }
   }
 }
 
@@ -396,8 +573,17 @@ footer{
     padding: 100px 30px 100px 10%;
   }
   .full-img--container {
+    padding: 0;
+    width: initial;
+    max-width: 650px;
     .title{
       font-size: 34px;
+    }
+  }
+  .full-banner{
+    &[class^="full-"],
+    &[class*="full-"] {
+      height: 550px;
     }
   }
 }

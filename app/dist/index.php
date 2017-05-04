@@ -31,8 +31,8 @@
                   <div>
                     <div class="banner-txt">
                       <h2 class="banner-title">NOSOTROS</h2>
-                      <h4 class="banner-subtitle">La Cámara Argentina de Café es una entidad gremial empresaria fundada en 1918.</h4>
-                      <a href="#">
+                      <h4 class="banner-subtitle">La Cámara Argentina de Café es una entidad gremial empresaria fundada en 1918</h4>
+                      <a href="conocenos.php">
                         <div class="btn btn-primary">+ info</div>
                       </a>
                     </div>
@@ -68,7 +68,7 @@
               <div class="margintop40 visible-xs"></div>
               <div class="products-container">
                 <div class="img-container">
-                  <img src="images/home-img--01.jpg" alt="">
+                  <img src="images/home-img--02.jpg" alt="">
                 </div>
                 <div class="title">ELABORACIÓN</div>
                 <p>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="title">ESTUDIOS CIENTÍFICOS</div>
                 <p>Informes internacionales sobre las propiedades de esta bebida.</p>
-                <a href="#">
+                <a href="informes.php">
                   <div class="btn btn-primary">+ info</div>
                 </a>
               </div>
@@ -97,11 +97,11 @@
               <div class="margintop40 visible-xs"></div>
               <div class="products-container">
                 <div class="img-container">
-                  <img src="images/home-img--01.jpg" alt="">
+                  <img src="images/home-img--03.jpg" alt="">
                 </div>
                 <div class="title">ESTADÍSTICAS</div>
                 <p>Datos sobre importaciones y exportaciones de café en el mundo.</p>
-                <a href="#">
+                <a href="tipos-de-cafe.php">
                   <div class="btn btn-primary">+ info</div>
                 </a>
               </div>
@@ -116,7 +116,5 @@
 
 
 <?php include 'footer.php'; ?>
-
-
 
 

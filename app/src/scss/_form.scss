@@ -6,20 +6,23 @@
 input:focus, textarea:focus{
   border-bottom: 1px solid $primary !important;
 }
-#contactForm{
+#contactForm,
+#subscribeForm{
   .text-danger, .help-block {
-    color: $primary;
+    color: #d3394c;
   }
   .help-block {
     position: absolute;
     width: 300px;
     text-align: right;
-    right: 0;
+    right: 15px;
     bottom: 0px;
     z-index: 11;
     margin: 0;
     ul{
-      padding: 6px;
+      li{
+        padding: 6px;
+      }
     }
   }  
   .alert-success, .alert-danger {
@@ -37,7 +40,7 @@ input:focus, textarea:focus{
     padding: 0;
     background-color: #fff;
     border-radius: 0;
-    padding: 5px 23px 2px;
+    padding: 5px 15px;
     margin-bottom: 30px;
   }
   .alert-danger {
@@ -47,6 +50,12 @@ input:focus, textarea:focus{
     opacity: 1;
   }
 }
+#subscribeForm{
+  .alert-success, .alert-danger {
+    bottom: initial;
+    top: 0px;
+  }
+}
 
 #contactForm {
   margin-top: 20px;
@@ -54,7 +63,7 @@ input:focus, textarea:focus{
     margin-bottom: 30px;
     button.btn.btn-primary.btn-lg{
       float: right;
-      padding: 12px 20px 9px;
+      padding: 9px 20px;
       background-color: $primary;
     }
   }
@@ -63,7 +72,7 @@ input:focus, textarea:focus{
     background-image: none;
     box-shadow: none;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #c3c3c3;
     border-radius: 0;
   }
   input:focus{
@@ -71,10 +80,10 @@ input:focus, textarea:focus{
   }
   /* Change Autocomplete styles in Chrome*/
   // color of form -->
-  input{color: #fff; font-family: $primary-Bd; padding: 11px 12px 5px; background: transparent;} select{color: #fff; font-family: $primary-Bd; option{color: #555 } } textarea{color: #fff; font-family: $primary-Bd; resize: none; min-height: 115px; background: transparent;}
-  ::-webkit-input-placeholder {color: #656565; font-family: $primary-Bk; } :-moz-placeholder { /* Firefox 18- */ color: #656565; font-family: $primary-Bk; } ::-moz-placeholder {  /* Firefox 19+ */ color: #656565; font-family: $primary-Bk; } :-ms-input-placeholder {color: #656565; font-family: $primary-Bk; }
+  input{color: #404040; padding: 11px 12px 5px; background: transparent;} select{color: #404040; option{color: #555 } } textarea{color: #404040; resize: none; min-height: 115px; background: transparent;}
+  ::-webkit-input-placeholder {color: #404040; } :-moz-placeholder { /* Firefox 18- */ color: #404040; } ::-moz-placeholder {  /* Firefox 19+ */ color: #404040; } :-ms-input-placeholder {color: #404040; }
   input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
-    border: 1px solid transparent;
+    border: 1px solid #eee;
     background: transparent;
     // color of autofill -->
     -webkit-text-fill-color: #404040;
@@ -141,7 +150,6 @@ input:focus, textarea:focus{
     margin-top: 20px;
   }
 }
-
 
 
 

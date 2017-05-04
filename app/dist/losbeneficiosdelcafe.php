@@ -1,5 +1,5 @@
 <?php 
-  $title = '';
+  $title = 'Los beneficios del cafe';
 ?>
 <?php include 'header.php'; ?>
   <section class='section-01 index'>
