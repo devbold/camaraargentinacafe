@@ -37,8 +37,8 @@
         <ul class="sidebar-nav">
           <li><a href="index.php">Home</a></li>
           <li><a href="losbeneficiosdelcafe.php">Los beneficios del cafe</a></li>
-          <!-- <li><a href="elmundodelcafe.php">El mundo del café</a></li> -->
-          <li><a href="tipos-de-cafe.php">Tipos de Cafe</a></li>
+          <li><a href="elmundodelcafe.php">El mundo del café</a></li>
+          <!-- <li><a href="tipos-de-cafe.php">Tipos de Cafe</a></li> -->
           <li><a href="elaboracion.php">Elaboración</a></li>
           <li><a href="informes.php">Informes</a></li>
           <li><a href="conocenos.php">Conocenos</a></li>
